@@ -10,10 +10,14 @@ class Home extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          leading: const IconButton(
+            icon: Icon(Icons.menu),
+            onPressed: null,
+          ),
           title: const Text("First Aplication"),
         ),
         body: const Center(
-          child: Text("Hello World"),
+          child: Text("Hello Wildan"),
         ),
       ),
     );
